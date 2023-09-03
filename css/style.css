@@ -1,0 +1,61 @@
+/* Import Google font - Open Sans */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&display=swap');
+
+* {
+  font-family: 'Open Sans', sans-serif;
+}
+
+html{
+	box-sizing: border-box;
+} 
+*,
+*::after,
+*::before{
+	box-sizing: inherit;
+}
+
+a{
+	color:inherit;
+	text-decoration: none;
+}
+
+img{
+	max-width: 100%;
+}
+
+
+
+.current-weather img {
+  max-width: 120px;
+  margin-top: -15px;
+}
+header{
+	background-color: #2c7bf1d3;
+}
+body{
+	background-color:#E3F2FD;
+}
+
+
+.card{
+background-color: #728ca7;
+
+}
+.current-weather{
+	background-color: #2c7bf1d3;
+}
+.search-btn{
+	background-color: #2c7bf1d3;
+	color: white;
+	border: none;
+	outline: none;
+	transition: background-color 0.3s ease ;
+}
+.search-btn:hover{
+	background-color: #2b70d8d3;
+	transition: background-color 0.3s ease ;
+}
+.search-btn:active{
+	background-color: #296accd3;
+	transition: background-color 0.3s ease ;
+}
